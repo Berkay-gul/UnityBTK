@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class GameObject : MonoBehaviour
 {
+    /*
+    
     void Start()
     {
         StartCoroutine(RoutineFNC());
@@ -13,8 +15,9 @@ public class GameObject : MonoBehaviour
         yield return new WaitForSeconds(2f);
         
         Debug.Log("Worked after 2 seconds");
-    }
-    /*
+    } 
+
+    
     public float GecikmeSuresi;
     //play butonuna bastigimizda ilk calisan fonksyondur. Bir kez calisir.
     void Awake()
